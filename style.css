@@ -1,0 +1,80 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body {
+    background-color:cornflowerblue ;
+}
+
+.container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background-color: aqua;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    width: 460px; 
+    height: 600px;
+    text-align: center;
+    
+}
+
+h1 {
+    margin: 12px 0;
+}
+
+.add-item {
+    margin: 12px 0;
+}
+
+input {
+    padding: 6px 4px;
+    width: 70%;
+}
+
+button {
+    padding: 7px 14px;
+    background-color: bisque;
+    border: none;
+    border-radius: 4px;
+}
+
+.element-list {
+    height: 550px;
+    overflow-y: auto;
+}
+
+ul {
+    padding: 15px;
+}
+
+li {
+    list-style: none;
+    padding: 10px 5px;
+    background-color: red;
+    margin: 12px 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: .4s;
+}
+
+button:hover {
+    background-color: #fff;
+}
+
+li:hover {
+background-color: #fff;
+}
+
+.checked{
+    text-decoration: line-through;
+}
+.white {
+    background-color: olivedrab;
+}
+
+.bin {
+    float: right;
+    margin-right: 12px;
+}
